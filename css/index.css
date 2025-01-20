@@ -1,0 +1,67 @@
+body 
+{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  color: #BCBCBE;
+  background-color: #3138A3;
+
+  font-family: "Nanum Pen Script", serif;
+  font-size: 4vmin;
+
+  text-align: center;
+  text-shadow: -2px 2px 2px black;
+}
+
+h1
+{
+  text-shadow: -4px 4px 4px black;
+
+  font-size: 12vmin;
+
+  margin-top: 0vmin;
+  margin-bottom: 0vmin;
+}
+
+h2 
+{
+  margin: 1vmin;
+}
+
+main 
+{
+  flex: 1;
+}
+
+div#lastStream 
+{
+  font-weight: bold;
+}
+
+div#streamContainer 
+{
+  margin-top: 3vmin;
+  font-size: 3vmin;
+}
+
+a:link, a:visited 
+{
+  text-decoration: underline;
+  color: inherit;
+}
+
+img 
+{
+  height: 40vmin;
+  width: 40vmin;
+}
+
+footer 
+{
+  font-size: 3vmin;
+  
+  text-align: center;
+
+  margin-bottom: 2vmin;
+}
