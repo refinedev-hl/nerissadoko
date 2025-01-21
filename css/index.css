@@ -34,15 +34,15 @@ main
   flex: 1;
 }
 
-div#lastStream 
+a#lastStream 
 {
-  font-weight: bold;
+  font-size: 3vmin;
 }
 
 div#streamContainer 
 {
-  margin-top: 3vmin;
-  font-size: 3vmin;
+  margin-top: 7vmin;
+  font-size: 2.5vmin;
 }
 
 a:link, a:visited 

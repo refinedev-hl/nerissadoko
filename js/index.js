@@ -6,7 +6,7 @@ function updateTimeSinceNerissaElement()
 function formatElapsedTime() 
 {
   const currentTime = new Date();
-  const lastStreamEndTime = new Date("2025-01-19T03:08Z");
+  const lastStreamEndTime = new Date("2025-01-21T04:00:00Z");
   // in milliseconds
   const timeSinceStream = currentTime.getTime() - lastStreamEndTime.getTime();
   
@@ -16,7 +16,7 @@ function formatElapsedTime()
   const daysPart = Math.floor(timeSinceStream / (1000 * 60 * 60 * 24));
 
   
-  return `${daysPart} days, ${hoursPart} hours, ${minutesPart} minutes, and ${secondsPart} seconds without Nerissium`;
+  return `${daysPart} days, ${hoursPart} hours, ${minutesPart} minutes, and ${secondsPart} seconds without new Nerissium`;
 }
 
 updateTimeSinceNerissaElement();
@@ -44,7 +44,7 @@ function buildRandomNerissaStreamLink()
   });
 
   streamLink.href = `https://youtube.com/watch?v=${nerissaStreams[randomIndex]}`;
-  streamLink.textContent = "random Nerissa stream";
+  streamLink.textContent = "random Nerissa stream vod";
   streamLink.target = "_blank";
   streamContainer.appendChild(streamLink);
 }
