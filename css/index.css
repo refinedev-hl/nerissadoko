@@ -29,6 +29,11 @@ h2
   margin: 1vmin;
 }
 
+p 
+{
+  font-size: 1vmin;
+}
+
 main 
 {
   flex: 1;
