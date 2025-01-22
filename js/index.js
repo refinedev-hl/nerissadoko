@@ -6,7 +6,7 @@ function updateTimeSinceNerissaElement()
 function formatElapsedTime() 
 {
   const currentTime = new Date();
-  const lastStreamEndTime = new Date("2025-01-21T04:00:00Z");
+  const lastStreamEndTime = new Date("2025-01-22T03:04:00Z");
   // in milliseconds
   const timeSinceStream = currentTime.getTime() - lastStreamEndTime.getTime();
   
