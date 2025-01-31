@@ -1,12 +1,7 @@
-function updateTimeSinceNerissaElement() 
-{
-  document.getElementById("how-long-since-stream").textContent = formatElapsedTime();
-}
-
 function formatElapsedTime() 
 {
   const currentTime = new Date();
-  const lastStreamEndTime = new Date("2025-01-22T03:04:00Z");
+  const lastStreamEndTime = new Date("2025-01-31T04:04:00Z");
   // in milliseconds
   const timeSinceStream = currentTime.getTime() - lastStreamEndTime.getTime();
   
@@ -19,10 +14,15 @@ function formatElapsedTime()
   return `${daysPart} days, ${hoursPart} hours, ${minutesPart} minutes, and ${secondsPart} seconds without Nerissa`;
 }
 
+function updateTimeSinceNerissaElement() 
+{
+  document.getElementById("how-long-since-stream").textContent = formatElapsedTime();
+}
+
 updateTimeSinceNerissaElement();
 setInterval(updateTimeSinceNerissaElement, 1000);
 //--------------------------------------------------------------------
-const nerissaStreams = ["2QPj2hPm8vM", "aO9Te463qBQ", "sjjPriB-0xw", "PJSd7DYlGNo", "SOLsTnPzmAE", "1Fi1_gTTqwU",
+/*const nerissaStreams = ["2QPj2hPm8vM", "aO9Te463qBQ", "sjjPriB-0xw", "PJSd7DYlGNo", "SOLsTnPzmAE", "1Fi1_gTTqwU",
                         "gtAt6xfeuFo", "qGEyKRT9Oj0", "hOX5wf06LN4", "JcdYQ3ApqWg", "pGQBbTk164s", "5s-O3oluZJM",
                         "8wpwqJ0_BGA", "gg3SrFzHn9M", "2Nob6f5dy7c", "vyvA71ABpRo", "T6qmfEr8ypo", "uq7T_akcUg0"];
 
@@ -50,4 +50,4 @@ function buildRandomNerissaStreamLink()
 }
 
 //builds the first link upon page load
-buildRandomNerissaStreamLink();
+buildRandomNerissaStreamLink();*/
