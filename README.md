@@ -1,5 +1,5 @@
 hosted at imissnerissa.com
 
 Credits:  
-Refine - webpage code  
-Astro4545 - hosting & domain name
+Refine Twitter: (@Refine_DA) - webpage code  
+Astro4545 Twitter: (@JailbirdUnion) - hosting & domain name
