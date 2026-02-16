@@ -1,7 +1,7 @@
 function formatElapsedTime() 
 {
   const currentTime = new Date();
-  const lastStreamEndTime = new Date("2026-02-15T03:01:30Z");
+  const lastStreamEndTime = new Date("2026-02-16T02:59:30Z");
   // in milliseconds
   const timeSinceStream = currentTime.getTime() - lastStreamEndTime.getTime();
   
@@ -51,6 +51,7 @@ function buildRandomNerissaStreamLink()
 
 //builds the first link upon page load
 buildRandomNerissaStreamLink();*/
+
 
 
 
