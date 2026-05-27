@@ -4,8 +4,10 @@ body
   flex-direction: column;
   height: 100vh;
 
-  color: #BCBCBE;
-  background-color: #3138A3;
+  background-image: url("img/bg.webp"); adjust path as needed; 
+  background-size: cover; makes it fill the screen;
+  background-repeat: no-repeat; prevents tiling;
+  background-attachment: fixed; optional: keeps image fixed while scrolling;
 
   font-family: "Nanum Pen Script", serif;
   font-size: 4vmin;
