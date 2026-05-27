@@ -11,9 +11,11 @@ body
 
   font-family: "Nanum Pen Script", serif;
   font-size: 4vmin;
-
+  
+  color: white; 
+  
   text-align: center;
-  text-shadow: -2px 2px 2px black;
+  text-shadow: -4px 4px 4px black;
 }
 
 h1
