@@ -1,7 +1,7 @@
 function formatElapsedTime() 
 {
   const currentTime = new Date();
-  const lastStreamEndTime = new Date("2026-11-01T00:48:30Z");
+  const lastStreamEndTime = new Date("2026-11-06T03:26:30Z");
   // in milliseconds
   const timeSinceStream = currentTime.getTime() - lastStreamEndTime.getTime();
   
